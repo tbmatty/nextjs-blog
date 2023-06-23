@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Leaderboard';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Week of the seafarer event';
 
 export default function Layout({ children, home }) {
   return (
@@ -30,10 +30,10 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/fiesta.jpg"
+              src="/images/nice.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={525}
+              width={2500}
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -43,10 +43,10 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/fiesta.jpg"
+                src="/images/smal.jpg"
                 className={utilStyles.borderCircle}
-                height={108}
-                width={108}
+                // height={800}
+                // width={267}
                 alt=""
               />
             </Link>
