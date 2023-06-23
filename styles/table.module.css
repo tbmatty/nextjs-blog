@@ -1,0 +1,22 @@
+   .leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leaderboard th,
+  .leaderboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 34px; /* Adjust the font size to make it bigger */
+  }
+  
+  .leaderboard th {
+    background-color: #36c2cc;
+    color: white;
+  }
+  
+  .leaderboard tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
