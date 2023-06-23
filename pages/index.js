@@ -72,9 +72,9 @@ const Table = ({ allPostsData }) => {
             <table className={tableStyles.leaderboard}>
                 <thead>
                     <tr>
-                        <th>Rank</th>
+                        <th>Position</th>
                         <th>Email</th>
-                        <th>Score</th>
+                        <th>Referrals</th>
                     </tr>
                 </thead>
                 <tbody>
