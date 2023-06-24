@@ -18,7 +18,7 @@ const fetcher = (...args) => fetch(...args).then(res => res.json())
 
 const Table = ({ allPostsData }) => {
     
-    const { data, error } = useSWR('api/leaderboard', fetcher)
+    const { data, error } = useSWR('https://us-central1-propelme-prod.cloudfunctions.net/leaderboardApi', fetcher)
  
     if (error) return <div>failed to load</div>
     if (!data) return <div>Loading...</div>
